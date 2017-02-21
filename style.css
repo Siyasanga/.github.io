@@ -2,6 +2,10 @@ body{
   margin: 0px;
   font-family:monospace;
 }
+img{
+  width: 400px;
+  height: 100%
+}
 .wrapper{
   text-align: center;
   overflow: auto;
@@ -17,18 +21,35 @@ body{
 .head-wrap{
   background-color:#4385f5;
   color: #ffffff;
+  height: 160px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  overflow: hidden;
 }
 .city-wrap{
   background-color:#dc4437;
   color: #ffffff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.city-wrap img{
+  margin-left: 5%;
 }
 .foregn-wrap{
   background-color:#fcbe1f;
-  color: #109d59;
+  color: #dc4437;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 .places-wrap{
   background-color:#109d59;
   color:#fcbe1f;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.places-wrap img{
+  width: 350;
+  height: 180px;
 }
 #name{
   float: left;
