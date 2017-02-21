@@ -51,6 +51,11 @@ img{
   width: 350;
   height: 180px;
 }
+.text{
+  text-align: justify;
+  font-size: 1.1em;
+  padding: 10px;
+}
 #name{
   float: left;
   font-size: 3em;
