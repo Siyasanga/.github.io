@@ -4,7 +4,8 @@ body{
 }
 img{
   width: 400px;
-  height: 100%
+  border-bottom-right-radius: 15%;
+  border-bottom-left-radius: 15%;
 }
 .wrapper{
   text-align: center;
@@ -28,12 +29,13 @@ img{
 }
 .city-wrap{
   background-color:#dc4437;
-  color: #ffffff;
+  color: #fcbe1f;
   padding-top: 50px;
   padding-bottom: 50px;
 }
-.city-wrap img{
+.city img{
   margin-left: 5%;
+  border-radius: 2%;
 }
 .foregn-wrap{
   background-color:#fcbe1f;
@@ -54,7 +56,8 @@ img{
 .text{
   text-align: justify;
   font-size: 1.1em;
-  padding: 10px;
+  padding-bottom: 30px;
+  padding-right: 10px;
 }
 #name{
   float: left;
@@ -82,6 +85,7 @@ padding-right: 10%;
   padding-bottom: 2em;
   float: left;
 }
+
 footer{
   background-color:#4385f5;
   color:#ffffff;
@@ -90,4 +94,8 @@ footer{
 }
 h3{
   font-size: 2em;
+}
+td img{
+  border-radius: 2%;
+  margin-bottom: 20px;
 }
